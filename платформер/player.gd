@@ -1,14 +1,9 @@
 extends KinematicBody2D
+ 
+var vert_move=0
 
-
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-func _input(event):
-	print(event.as_text())
+func _physics_process(delta):
+	var accel=Vector2()
+	accel.x += 1 if Input.is_action_pressed("right") else 0
+	accel.x -= 1 if Input.is_action_pressed("left") else 0
+	vert_move=-300 if Input.is_action_pressed("fump") else vert_move + 9.6 * delta

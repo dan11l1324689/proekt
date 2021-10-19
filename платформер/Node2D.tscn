@@ -7,9 +7,10 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 141.421, 304.056 )
 script = ExtResource( 3 )
 
 [node name="платформа" type="Sprite" parent="."]
-position = Vector2( 136.937, 277.758 )
-scale = Vector2( 6.6235, 5.62493 )
+position = Vector2( 142.549, 400.106 )
+scale = Vector2( 6.6235, 5.90554 )
 texture = ExtResource( 1 )
