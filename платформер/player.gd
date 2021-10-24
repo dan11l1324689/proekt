@@ -6,6 +6,8 @@ var OnAirTime = 0
 
 var accel=Vector2()
 
+var jumpForse = 500
+
 var speed = 300
 
 const GRAVETE = Vector2(0,980)
@@ -13,6 +15,8 @@ const GRAVETE = Vector2(0,980)
 var vert_move=0
 
 func _process(delta):
+	if Input.is_action_pressed("fump") and is_on_floor():
+		accel.y -= jumpForse
 	accel += GRAVETE * delta
 	var target_vel = 0
 	target_vel =- int(Input.is_action_pressed("left")) + int(Input.is_action_pressed("right"))
