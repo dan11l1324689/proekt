@@ -10,21 +10,21 @@
 position = Vector2( 9.8844, 517.879 )
 
 [node name="StaticBody2D" parent="." instance=ExtResource( 1 )]
-position = Vector2( 219.266, 456.023 )
+position = Vector2( 216, 464 )
 
 [node name="StaticBody2D3" parent="." instance=ExtResource( 1 )]
 position = Vector2( 873.654, 285.936 )
 
 [node name="StaticBody2D4" parent="." instance=ExtResource( 1 )]
-position = Vector2( 408, 656 )
+position = Vector2( 400, 664 )
 rotation = -0.00785249
 scale = Vector2( 68.1527, 1.10671 )
 
 [node name="StaticBody2D2" parent="." instance=ExtResource( 1 )]
-position = Vector2( 158.735, 550.31 )
+position = Vector2( 168, 560 )
 
 [node name="StaticBody2D6" parent="." instance=ExtResource( 1 )]
-position = Vector2( 279.879, 552.555 )
+position = Vector2( 264, 560 )
 
 [node name="StaticBody2D5" parent="." instance=ExtResource( 3 )]
 position = Vector2( 552, 360 )
