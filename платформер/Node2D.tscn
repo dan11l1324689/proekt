@@ -16,6 +16,24 @@ position = Vector2( 216, 464 )
 [node name="StaticBody2D3" parent="." instance=ExtResource( 1 )]
 position = Vector2( 872, 304 )
 
+[node name="StaticBody2D7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 3485.9, 309.345 )
+
+[node name="StaticBody2D10" parent="." instance=ExtResource( 1 )]
+position = Vector2( 3209.72, 343.2 )
+
+[node name="StaticBody2D11" parent="." instance=ExtResource( 1 )]
+position = Vector2( 2810.8, 343.509 )
+
+[node name="StaticBody2D12" parent="." instance=ExtResource( 1 )]
+position = Vector2( 2399, 336.072 )
+
+[node name="StaticBody2D13" parent="." instance=ExtResource( 1 )]
+position = Vector2( 2042.64, 266.764 )
+
+[node name="StaticBody2D14" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1720.14, 309.345 )
+
 [node name="StaticBody2D8" parent="." instance=ExtResource( 1 )]
 position = Vector2( 1400, 336 )
 
