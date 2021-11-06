@@ -14,6 +14,11 @@ animations = [ {
 "name": "idle",
 "speed": 3.0
 }, {
+"frames": [ ExtResource( 4 ) ],
+"loop": false,
+"name": "jump",
+"speed": 0.0
+}, {
 "frames": [ ExtResource( 6 ), ExtResource( 3 ) ],
 "loop": true,
 "name": "run",
@@ -23,17 +28,14 @@ animations = [ {
 "loop": false,
 "name": "fall",
 "speed": 0.0
-}, {
-"frames": [ ExtResource( 4 ) ],
-"loop": false,
-"name": "jump",
-"speed": 0.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 34, 52 )
 
-[node name="player" type="KinematicBody2D"]
+[node name="player" type="KinematicBody2D" groups=[
+"player",
+]]
 script = ExtResource( 2 )
 
 [node name="Sprite" type="AnimatedSprite" parent="."]
@@ -56,3 +58,12 @@ current = true
 zoom = Vector2( 2, 2 )
 smoothing_enabled = true
 smoothing_speed = 10.0
+
+[node name="Label" type="Label" parent="Camera2D"]
+margin_left = -26.0
+margin_top = -73.0
+margin_right = 32.0
+margin_bottom = -56.0
+__meta__ = {
+"_edit_use_anchors_": false
+}

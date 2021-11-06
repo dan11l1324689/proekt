@@ -14,6 +14,9 @@ const GRAVETE = Vector2(0,980)
 
 var vert_move=0
 
+func _ready():
+	$"/root/Globl".palyer = self 
+
 func _process(delta):
 	if Input.is_action_pressed("fump") and is_on_floor():
 		accel.y -= jumpForse
