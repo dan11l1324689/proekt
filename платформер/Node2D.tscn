@@ -1,74 +1,213 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://platform.tscn" type="PackedScene" id=1]
 [ext_resource path="res://player.tscn" type="PackedScene" id=2]
-[ext_resource path="res://NOVIZION.tscn" type="PackedScene" id=3]
+[ext_resource path="res://island4.tscn" type="PackedScene" id=3]
 [ext_resource path="res://portal.tscn" type="PackedScene" id=4]
 [ext_resource path="res://scenemanager.gd" type="Script" id=5]
 [ext_resource path="res://key.tscn" type="PackedScene" id=6]
+[ext_resource path="res://netherkey.tscn" type="PackedScene" id=7]
+[ext_resource path="res://стрелка.png" type="Texture" id=8]
 [ext_resource path="res://islend.tscn" type="PackedScene" id=9]
+[ext_resource path="res://island3.tscn" type="PackedScene" id=10]
+[ext_resource path="res://level_2tscn.tscn" type="PackedScene" id=11]
 
-[node name="Node2D" type="Node2D"]
+[node name="level_1" type="Node2D"]
 script = ExtResource( 5 )
 
-[node name="StaticBody2D7" parent="." instance=ExtResource( 1 )]
-position = Vector2( 3485.9, 309.345 )
-
-[node name="StaticBody2D3" parent="." instance=ExtResource( 1 )]
-position = Vector2( 872, 304 )
-
-[node name="StaticBody2D10" parent="." instance=ExtResource( 1 )]
-position = Vector2( 3209.72, 343.2 )
-
-[node name="StaticBody2D12" parent="." instance=ExtResource( 1 )]
-position = Vector2( 2399, 336.072 )
-
-[node name="StaticBody2D13" parent="." instance=ExtResource( 1 )]
-position = Vector2( 2042.64, 266.764 )
-
-[node name="StaticBody2D14" parent="." instance=ExtResource( 1 )]
-position = Vector2( 1720.14, 309.345 )
-
-[node name="StaticBody2D15" parent="." instance=ExtResource( 1 )]
-position = Vector2( 2814.45, 348.503 )
-
-[node name="StaticBody2D8" parent="." instance=ExtResource( 1 )]
-position = Vector2( 1400, 336 )
-
-[node name="StaticBody2D9" parent="." instance=ExtResource( 1 )]
-position = Vector2( 1120, 208 )
-rotation = 1.309
-
-[node name="StaticBody2D4" parent="." instance=ExtResource( 1 )]
-position = Vector2( 400, 664 )
-scale = Vector2( 68.1527, 1.10671 )
-
-[node name="StaticBody2D2" parent="." instance=ExtResource( 1 )]
-position = Vector2( 168, 560 )
-
-[node name="StaticBody2D6" parent="." instance=ExtResource( 1 )]
-position = Vector2( 264, 560 )
-
-[node name="StaticBody2D5" parent="." instance=ExtResource( 3 )]
-position = Vector2( 552, 360 )
-
-[node name="key2" parent="." instance=ExtResource( 6 )]
-position = Vector2( 223.387, 383.349 )
-
-[node name="key3" parent="." instance=ExtResource( 6 )]
-position = Vector2( 206.18, 384.017 )
-
-[node name="key4" parent="." instance=ExtResource( 6 )]
-position = Vector2( 226.016, 389.482 )
-
 [node name="player" parent="." instance=ExtResource( 2 )]
-position = Vector2( 0, 544 )
+position = Vector2( 296, 248 )
 
-[node name="StaticBody2D" parent="." instance=ExtResource( 1 )]
-position = Vector2( 216, 464 )
+[node name="platform_0" parent="." instance=ExtResource( 1 )]
+position = Vector2( 336, 352 )
 
-[node name="StaticBody2D11" parent="." instance=ExtResource( 9 )]
-position = Vector2( 767.038, 472.03 )
+[node name="platform_1" parent="." instance=ExtResource( 1 )]
+position = Vector2( 440, 352 )
+
+[node name="platform_4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1944, 416 )
+
+[node name="platform_5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1992, 512 )
+
+[node name="platform_6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 2032, 608 )
+
+[node name="platform_24" parent="." instance=ExtResource( 1 )]
+position = Vector2( 3200, 1088 )
+
+[node name="platform_25" parent="." instance=ExtResource( 1 )]
+position = Vector2( 3280, 976 )
+
+[node name="platform_26" parent="." instance=ExtResource( 1 )]
+position = Vector2( 3704, 1424 )
+
+[node name="platform_28" parent="." instance=ExtResource( 1 )]
+position = Vector2( 3704, 1229 )
+
+[node name="platform_29" parent="." instance=ExtResource( 1 )]
+position = Vector2( 3704, 1036 )
+
+[node name="platform_2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 128, 352 )
+
+[node name="platform_3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 232, 352 )
+
+[node name="platform_7" parent="." instance=ExtResource( 1 )]
+position = Vector2( -1112, 712 )
+
+[node name="platform_10" parent="." instance=ExtResource( 1 )]
+position = Vector2( -1064, 664 )
+
+[node name="platform_8" parent="." instance=ExtResource( 1 )]
+position = Vector2( -1168, 752 )
+
+[node name="platform_11" parent="." instance=ExtResource( 1 )]
+position = Vector2( -3064, 1416 )
+
+[node name="platform_12" parent="." instance=ExtResource( 1 )]
+position = Vector2( -2624, 1464 )
+
+[node name="platform_13" parent="." instance=ExtResource( 1 )]
+position = Vector2( -2248, 1424 )
+
+[node name="platform_14" parent="." instance=ExtResource( 1 )]
+position = Vector2( -1896, 1392 )
+
+[node name="platform_17" parent="." instance=ExtResource( 1 )]
+position = Vector2( -1528, 1336 )
+
+[node name="platform_18" parent="." instance=ExtResource( 1 )]
+position = Vector2( -1152, 1368 )
+
+[node name="platform_19" parent="." instance=ExtResource( 1 )]
+position = Vector2( -920, 1240 )
+
+[node name="platform_20" parent="." instance=ExtResource( 1 )]
+position = Vector2( -728, 1096 )
+
+[node name="platform_30" parent="." instance=ExtResource( 1 )]
+position = Vector2( -1328, 1936 )
+
+[node name="platform_21" parent="." instance=ExtResource( 1 )]
+position = Vector2( -576, 944 )
+
+[node name="platform_22" parent="." instance=ExtResource( 1 )]
+position = Vector2( -360, 784 )
+
+[node name="platform_23" parent="." instance=ExtResource( 1 )]
+position = Vector2( -576, 608 )
+
+[node name="platform_9" parent="." instance=ExtResource( 1 )]
+position = Vector2( -1224, 800 )
+
+[node name="island3_4" parent="." instance=ExtResource( 10 )]
+position = Vector2( -816, 544 )
+
+[node name="island3_6" parent="." instance=ExtResource( 10 )]
+position = Vector2( -2848, 272 )
+
+[node name="island3_7" parent="." instance=ExtResource( 10 )]
+position = Vector2( -2400, 632 )
+
+[node name="island3_1" parent="." instance=ExtResource( 10 )]
+position = Vector2( 2360, 216 )
+
+[node name="island3_2" parent="." instance=ExtResource( 10 )]
+position = Vector2( 3528, 856 )
+
+[node name="island3_10" parent="." instance=ExtResource( 10 )]
+position = Vector2( 4182, 1896 )
+
+[node name="island3_8" parent="." instance=ExtResource( 10 )]
+position = Vector2( 4856, 216 )
+
+[node name="island3_9" parent="." instance=ExtResource( 10 )]
+position = Vector2( 5608, 168 )
+
+[node name="island4_0" parent="." instance=ExtResource( 3 )]
+position = Vector2( 936, 296 )
+
+[node name="island4_6" parent="." instance=ExtResource( 3 )]
+position = Vector2( -1296, 520 )
+
+[node name="island4_7" parent="." instance=ExtResource( 3 )]
+position = Vector2( -1792, 776 )
+
+[node name="island4_9" parent="." instance=ExtResource( 3 )]
+position = Vector2( -3096, 904 )
+
+[node name="island4_10" parent="." instance=ExtResource( 3 )]
+position = Vector2( -3440, 1136 )
+
+[node name="island4_8" parent="." instance=ExtResource( 3 )]
+position = Vector2( -1272, 848 )
+
+[node name="island4_1" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1424, 392 )
+
+[node name="island4_2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2256, 664 )
+
+[node name="island4_3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 3584, 1632 )
+
+[node name="island4_4" parent="." instance=ExtResource( 3 )]
+position = Vector2( 3016, 208 )
+
+[node name="island4_5" parent="." instance=ExtResource( 3 )]
+position = Vector2( 4248, 352 )
+
+[node name="island2_0" parent="." instance=ExtResource( 9 )]
+position = Vector2( 1784, 280 )
+
+[node name="island2_4" parent="." instance=ExtResource( 9 )]
+position = Vector2( -288, 384 )
+
+[node name="island2_5" parent="." instance=ExtResource( 9 )]
+position = Vector2( -2016, 344 )
+
+[node name="island2_1" parent="." instance=ExtResource( 9 )]
+position = Vector2( 2632, 584 )
+
+[node name="island2_2" parent="." instance=ExtResource( 9 )]
+position = Vector2( 3040, 672 )
+
+[node name="island2_9" parent="." instance=ExtResource( 9 )]
+position = Vector2( 2984, 1280 )
+
+[node name="island2_10" parent="." instance=ExtResource( 9 )]
+position = Vector2( 3824, 3080 )
+
+[node name="island2_3" parent="." instance=ExtResource( 9 )]
+position = Vector2( 3568, 200 )
+
+[node name="island2_8" parent="." instance=ExtResource( 9 )]
+position = Vector2( 6088, 328 )
+
+[node name="key" parent="." instance=ExtResource( 6 )]
+position = Vector2( -3456, 1088 )
+
+[node name="netherkey" parent="." instance=ExtResource( 7 )]
+position = Vector2( -2896, 208 )
+
+[node name="netherkey2" parent="." instance=ExtResource( 7 )]
+position = Vector2( 6112, 272 )
+
+[node name="стрелка" type="Sprite" parent="."]
+position = Vector2( 3848, 1800 )
+scale = Vector2( 10, 10 )
+texture = ExtResource( 8 )
 
 [node name="portal" parent="." instance=ExtResource( 4 )]
-position = Vector2( 864, 224 )
+position = Vector2( 3848, 3016 )
+nextlevel = ExtResource( 11 )
+keys_needed = 2
+netherkeys_needed = 2
+
+[node name="netherkey3" parent="." instance=ExtResource( 7 )]
+position = Vector2( 4168, 1832 )
+
+[node name="netherkey4" parent="." instance=ExtResource( 7 )]
+position = Vector2( -1336, 1856 )

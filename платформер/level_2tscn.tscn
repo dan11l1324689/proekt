@@ -1,0 +1,190 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://level_1.gd" type="Script" id=1]
+[ext_resource path="res://стрелка.png" type="Texture" id=2]
+[ext_resource path="res://key.tscn" type="PackedScene" id=3]
+[ext_resource path="res://lavel2.tscn" type="PackedScene" id=4]
+[ext_resource path="res://netherkey.tscn" type="PackedScene" id=5]
+[ext_resource path="res://island4.tscn" type="PackedScene" id=6]
+[ext_resource path="res://player.tscn" type="PackedScene" id=7]
+[ext_resource path="res://portal.tscn" type="PackedScene" id=8]
+[ext_resource path="res://islend.tscn" type="PackedScene" id=9]
+[ext_resource path="res://platform.tscn" type="PackedScene" id=10]
+[ext_resource path="res://island3.tscn" type="PackedScene" id=11]
+
+[node name="level_2" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="island4_0" parent="." instance=ExtResource( 6 )]
+position = Vector2( 696, 392 )
+
+[node name="island4_7" parent="." instance=ExtResource( 6 )]
+position = Vector2( 3992, 1200 )
+
+[node name="island4_4" parent="." instance=ExtResource( 6 )]
+position = Vector2( -376, 1248 )
+
+[node name="island4_5" parent="." instance=ExtResource( 6 )]
+position = Vector2( -1104, 1248 )
+
+[node name="island4_8" parent="." instance=ExtResource( 6 )]
+position = Vector2( -2736, 1216 )
+
+[node name="island4_6" parent="." instance=ExtResource( 6 )]
+position = Vector2( -752, 1296 )
+
+[node name="island4_2" parent="." instance=ExtResource( 6 )]
+position = Vector2( 1440, 560 )
+
+[node name="island4_3" parent="." instance=ExtResource( 6 )]
+position = Vector2( 1800, 184 )
+
+[node name="island3_0" parent="." instance=ExtResource( 11 )]
+position = Vector2( 168, 248 )
+
+[node name="island3_2" parent="." instance=ExtResource( 11 )]
+position = Vector2( 0, 624 )
+
+[node name="island3_4" parent="." instance=ExtResource( 11 )]
+position = Vector2( -1536, 1320 )
+
+[node name="island4_9" parent="." instance=ExtResource( 6 )]
+position = Vector2( 384, 2296 )
+
+[node name="island4_10" parent="." instance=ExtResource( 6 )]
+position = Vector2( -1096, 2424 )
+
+[node name="island3_7" parent="." instance=ExtResource( 11 )]
+position = Vector2( -48, 2368 )
+
+[node name="island3_3" parent="." instance=ExtResource( 11 )]
+position = Vector2( 1616, 1216 )
+
+[node name="island3_8" parent="." instance=ExtResource( 11 )]
+position = Vector2( -608, 2304 )
+
+[node name="island3_5" parent="." instance=ExtResource( 11 )]
+position = Vector2( 2912, 1208 )
+
+[node name="island3_6" parent="." instance=ExtResource( 11 )]
+position = Vector2( 4512, 1144 )
+
+[node name="island3_1" parent="." instance=ExtResource( 11 )]
+position = Vector2( 1320, 240 )
+
+[node name="island2_0" parent="." instance=ExtResource( 9 )]
+position = Vector2( 624, 136 )
+
+[node name="island2_4" parent="." instance=ExtResource( 9 )]
+position = Vector2( 3480, 1096 )
+
+[node name="island2_6" parent="." instance=ExtResource( 9 )]
+position = Vector2( 2264, 1184 )
+
+[node name="island2_10" parent="." instance=ExtResource( 9 )]
+position = Vector2( 2104, 2272 )
+
+[node name="island2_11" parent="." instance=ExtResource( 9 )]
+position = Vector2( 2608, 2256 )
+
+[node name="island2_5" parent="." instance=ExtResource( 9 )]
+position = Vector2( 5016, 1176 )
+
+[node name="island2_2" parent="." instance=ExtResource( 9 )]
+position = Vector2( 432, 1192 )
+
+[node name="island2_9" parent="." instance=ExtResource( 9 )]
+position = Vector2( 712, 2320 )
+
+[node name="island2_3" parent="." instance=ExtResource( 9 )]
+position = Vector2( -16, 1280 )
+
+[node name="island2_7" parent="." instance=ExtResource( 9 )]
+position = Vector2( -1984, 1216 )
+
+[node name="island2_8" parent="." instance=ExtResource( 9 )]
+position = Vector2( -2408, 1288 )
+
+[node name="platform_0" parent="." instance=ExtResource( 10 )]
+position = Vector2( 976, 344 )
+
+[node name="platform_1" parent="." instance=ExtResource( 10 )]
+position = Vector2( 848, 384 )
+
+[node name="platform_3" parent="." instance=ExtResource( 10 )]
+position = Vector2( 320, 680 )
+
+[node name="platform_4" parent="." instance=ExtResource( 10 )]
+position = Vector2( 496, 728 )
+
+[node name="platform_15" parent="." instance=ExtResource( 10 )]
+position = Vector2( -1544, 2400 )
+
+[node name="platform_16" parent="." instance=ExtResource( 10 )]
+position = Vector2( -1368, 2448 )
+
+[node name="platform_5" parent="." instance=ExtResource( 10 )]
+position = Vector2( 696, 736 )
+
+[node name="platform_6" parent="." instance=ExtResource( 10 )]
+position = Vector2( 896, 696 )
+
+[node name="platform_7" parent="." instance=ExtResource( 10 )]
+position = Vector2( 1152, 640 )
+
+[node name="platform_8" parent="." instance=ExtResource( 10 )]
+position = Vector2( 808, 1112 )
+
+[node name="platform_9" parent="." instance=ExtResource( 10 )]
+position = Vector2( 1040, 1112 )
+
+[node name="platform_11" parent="." instance=ExtResource( 10 )]
+position = Vector2( 1024, 2320 )
+
+[node name="platform_12" parent="." instance=ExtResource( 10 )]
+position = Vector2( 1264, 2280 )
+
+[node name="platform_13" parent="." instance=ExtResource( 10 )]
+position = Vector2( 1504, 2256 )
+
+[node name="platform_14" parent="." instance=ExtResource( 10 )]
+position = Vector2( 1768, 2224 )
+
+[node name="platform_10" parent="." instance=ExtResource( 10 )]
+position = Vector2( 1224, 1056 )
+
+[node name="platform_2" parent="." instance=ExtResource( 10 )]
+position = Vector2( 1088, 304 )
+
+[node name="key" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1416, 480 )
+
+[node name="key2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 48, 552 )
+
+[node name="player" parent="." instance=ExtResource( 7 )]
+position = Vector2( 616, 32 )
+
+[node name="netherkey" parent="." instance=ExtResource( 5 )]
+position = Vector2( -2760, 1152 )
+
+[node name="netherkey2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 5024, 1120 )
+
+[node name="стрелка" type="Sprite" parent="."]
+position = Vector2( 679.5, 1107 )
+scale = Vector2( 8, 8 )
+texture = ExtResource( 2 )
+
+[node name="key3" parent="." instance=ExtResource( 3 )]
+position = Vector2( -1536, 2312 )
+
+[node name="netherkey3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2624, 2200 )
+
+[node name="portal" parent="." instance=ExtResource( 8 )]
+position = Vector2( 608, 2248 )
+
+[node name="portal2" parent="." instance=ExtResource( 8 )]
+position = Vector2( 784, 2256 )
+nextlevel = ExtResource( 4 )

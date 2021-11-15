@@ -11,6 +11,12 @@ func add_keys2 (amount):
 	if get_node(player):
 		get_node(player).get_node("Camera2D/Label2").text=str(netherkey)
 
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = "text"
+
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.

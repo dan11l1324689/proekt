@@ -6,7 +6,7 @@ var OnAirTime = 0
 
 var accel=Vector2()
 
-var jumpForse = 500
+var jumpForse = 600
 
 var speed = 300
 
