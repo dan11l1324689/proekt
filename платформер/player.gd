@@ -15,7 +15,7 @@ const GRAVETE = Vector2(0,980)
 var vert_move=0
 
 func _ready():
-	$"/root/Globl".palyer = self 
+	$"/root/Globl".player = self 
 
 func _process(delta):
 	if Input.is_action_pressed("fump") and is_on_floor():

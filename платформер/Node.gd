@@ -1,6 +1,7 @@
 extends Node
-
-var palyer = Node.new()
+export onready var chekpoint = PackedScene.new()
+signal chekpoint_activated
+var player = Node.new()
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

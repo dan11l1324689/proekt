@@ -3,7 +3,7 @@ export var nextlevel:PackedScene
 export var keys_needed = 3
 export var netherkeys_needed = 3
 func _physics_process(delta):
-	var player = $"/root/Globl".palyer
+	var player = $"/root/Globl".player
 	if player is KinematicBody2D:
 		var open = overlaps_body(player) and get_tree().current_scene.netherkey >= netherkeys_needed and get_tree().current_scene.key >= keys_needed
 		$CollisionShape2D/Label.visible = open  
